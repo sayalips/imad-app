@@ -7,11 +7,14 @@ app.use(morgan('combined'));
 
 
 
-var articles={
+var articles: {
     
-    var articleOne:{
-    title:'Article One sayalips',
-    heading:'Article one',
+    var articleOne= {
+                
+        title:'Article One sayalips',
+    heading:'Article One',
+    
+
     
     content: `
     
