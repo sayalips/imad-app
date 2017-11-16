@@ -55,6 +55,7 @@ var htmlTemplate=`
 
 `
    ; 
+   return htmlTemplate;
 
 }
 
