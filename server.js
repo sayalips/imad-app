@@ -7,7 +7,7 @@ app.use(morgan('combined'));
 
 
 
-var arts={
+var articles={
    articleOne:{
        
    },
