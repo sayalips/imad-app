@@ -7,7 +7,17 @@ app.use(morgan('combined'));
 
 
 
-
+var arts={
+   articleOne:{
+       
+   },
+   articleTwo:{
+       
+   },
+   articleThree:{
+       
+   }
+};
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
