@@ -9,13 +9,12 @@ app.use(morgan('combined'));
 
 var articles={
    articleOne:{
-       
-        title:'Article One sayalips',
-   var  heading:'Article One',
+       title:'Article One sayalips',
+    heading:'Article One',
     
 
     
-   var  content: `
+    content: `
     
      <p>
                   This is article one.This is article one. This is article one.This is article one.This is article one. This is article one.
@@ -24,7 +23,6 @@ var articles={
                   <p>
                       This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.
                       </p>`
-       
    },
    articleTwo:{
        title:'Article Two sayalips',
@@ -36,11 +34,10 @@ var articles={
                   <p>
                       This is content for my second article.
                       </p>`
-       
    },
    articleThree:{
        
-       title:'Article Three sayalips',
+        title:'Article Three sayalips',
     heading:'Article Three',
     
     content: `
@@ -50,6 +47,11 @@ var articles={
                       This is content for my third article.
                       </p>`
    }
+   
+   
+
+               
+   
 };
 function createTemplate(data){
     var title=data.title;
