@@ -22,6 +22,50 @@ var articleOne={
     
     `
 };
+var articles={
+    var articleOne={
+        
+        title:'Article One sayalips',
+    heading:'Article one',
+    
+    content: `
+    
+     <p>
+                  This is article one.This is article one. This is article one.This is article one.This is article one. This is article one.
+                This is article one.This is article one.This is article one. This is article one.
+                  </p>
+                  <p>
+                      This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.This is content for my first article.
+                      </p>`
+    };
+    
+    var articleTwo={
+        
+        
+        title:'Article Two sayalips',
+    heading:'Article Two',
+    
+    content: `
+    
+
+                  <p>
+                      This is content for my second article.
+                      </p>`
+    };
+    var articleThree={
+        
+        
+        title:'Article Three sayalips',
+    heading:'Article Three',
+    
+    content: `
+    
+
+                  <p>
+                      This is content for my third article.
+                      </p>`
+    };
+};
 function createTemplate(data){
     var title=data.title;
     var heading=data.heading;
