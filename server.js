@@ -34,7 +34,7 @@ app.get('/ui/madi.png', function (req, res) {
 var names=[];
 app.get('/submit-name/:name', function (req, res) {
     //get the name from req object
-    var name=req.params.name;
+    var name=req.query.name;
     names.push(name);
     //json javascript obj notation
     res.send(JSON.stringify(names));
