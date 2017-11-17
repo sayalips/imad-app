@@ -12,7 +12,7 @@ button.onclick=function(){
     {
         //action
         if(requset.status==200){
-            var counter=rquest.responseText;
+            var counter=request.responseText;
               var spam=document.getElementById('count');
     spam.innerHTML=counter.toString();
         }
