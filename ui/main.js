@@ -13,6 +13,7 @@ button.onclick=function(){
         //action
         if(requset.status==200){
             var counter=request.responseText;
+            counter=counter+1;
               var spam=document.getElementById('count');
     spam.innerHTML=counter.toString();
         }
