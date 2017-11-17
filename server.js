@@ -7,7 +7,15 @@ app.use(morgan('combined'));
 
 
 
-
+var names=[];
+app.get('/submit-name/:name', function (req, res) {
+    //get the name from req object
+    var name=req.query.name;
+    names.push(name);
+    //json javascript obj notation
+    res.send(JSON.stringify(names));
+  
+});
     
 
                  
@@ -31,15 +39,7 @@ app.get('/ui/main.js', function (req, res) {
 app.get('/ui/madi.png', function (req, res) {
   res.sendFile(path.join(__dirname, 'ui', 'madi.png'));
 });
-var names=[];
-app.get('/submit-name/:name', function (req, res) {
-    //get the name from req object
-    var name=req.params.name;
-    names.push(name);
-    //json javascript obj notation
-    res.send(JSON.stringify(names));
-  
-});
+
 
 
 
