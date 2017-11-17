@@ -4,6 +4,7 @@ element.innerHTML='New Value';
 
 var img=document.getElementById('madi');
 img.onclick=function() {
+   
+    img.style.marginleft='408px';
     alert('hey hiiiii');
-    img.style.marginleft='108px';
 };
