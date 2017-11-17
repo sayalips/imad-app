@@ -20,6 +20,6 @@ button.onclick=function(){
     }
    };
     //make req
-    request.open('GET','http://sayali1696.imad.hasura.app.io/counter',true);
+    request.open('GET','http://sayali1696.imad.hasura-app.io/counter',true);
     request.send(null);
 };
