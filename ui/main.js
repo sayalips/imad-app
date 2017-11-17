@@ -7,7 +7,7 @@ button.onclick=function(){
     //create req
     var request=new XMLHttpRequest();
     //capture the response and store it in var
-    request.onreadystatechange=function();
+   request.onreadystatechange=function(){
     if(request.readyState==XMLHttpRequest.DONE)
     {
         //action
@@ -17,6 +17,7 @@ button.onclick=function(){
     spam.innerHTML=counter.toString();
         }
     }
+   };
     //make req
     request.open('GET','http://sayali1696.imad.hasura.app.io/counter',true);
     request.send(null);
